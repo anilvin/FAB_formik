@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 57, 87, 1) 0%,
+    rgba(0, 98, 255, 1) 100%
+  ) !important ;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+aside.css-4qhmjq {
+  background-color: #002b77;
+}
+
+.chakra-text.login-text.css-25zacc {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 14px;
+}
+span.chakra-text.user-id.css-25zacc {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.chakra-text.css-9ta0si {
+  font-size: 20px;
+  margin-left: 15px;
+  font-family: 'Graphik';
+  font-weight: 600;
+}
+
+.css-x5a6ej {
+  margin-left: 6rem;
+  margin-top: 6rem;
+}
+
+.css-5bkcdb {
+  display: flex;
+  margin-left: 6rem;
+}
+.boxWindows{
+  background-color: var(--chakra-colors-blackGrey-800);
+  border-radius: var(--chakra-radii-xSmall);
+  position: relative;
+  display: flex;
+  margin-left: 2rem;
+  padding-top: 2rem;
+  flex-direction: row;
+}
+
+.FormControl_row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.FormControl_column {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  padding: 20px ;
+}
+
+
+
+.FormControl_FooterButton {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}

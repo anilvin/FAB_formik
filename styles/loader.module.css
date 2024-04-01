@@ -1,0 +1,18 @@
+.loaderMain{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    background-color:rgba(255, 255, 255, 0.5) ;
+}
+.loaderContainer{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index: 9999999;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50px, -50px);
+}

@@ -1,0 +1,16 @@
+.footer_copyright {
+  background: #48586a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-style: normal;
+  font-family: 'Graphik';
+  font-weight: 400;
+  height: 1rem;
+}
+p.chakra-text.css-8exaqn {
+  font-family: 'Graphik';
+  font-weight: 400;
+}

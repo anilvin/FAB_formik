@@ -1,0 +1,27 @@
+.FabHeading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Graphik';
+    color: #3b3c3e;
+    padding-left: 12px;
+    padding-bottom: 0.5rem;
+    padding-top: 1.2rem;
+  }
+  .subHead{
+    margin-left: 0.5rem;
+   
+    padding: 10px 5px;
+    display: flex;
+  }
+  .btnContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5rem;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+  gap: 10px;
+   
+  }
+  

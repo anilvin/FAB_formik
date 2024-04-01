@@ -1,0 +1,250 @@
+{
+    "parentNode": [
+      {
+        "titleName": "About your company",
+        "childNodes": [
+          {
+            "displayName": "Customer Information",
+            "sortKey": 0,
+            "componentRefName": "customInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Contact & Address Information",
+            "sortKey": 1,
+            "componentRefName": "customAddressInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Identity Information",
+            "sortKey": 2,
+            "componentRefName": "identityInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Review",
+            "sortKey": 3,
+            "componentRefName": "reviewAboutCompany",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 0
+      },
+      {
+        "titleName": "Connected Parties",
+        "childNodes": [
+          {
+            "displayName": "Shareholders/Partner",
+            "sortKey": 0,
+            "componentRefName": "shareHolder",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Board of Director",
+            "sortKey": 1,
+            "componentRefName": "boardDirector",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Beneficiaries",
+            "sortKey": 2,
+            "componentRefName": "beneficiaries",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Authorised Signatory",
+            "sortKey": 3,
+            "componentRefName": "authorisedSignatory",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Senior Management",
+            "sortKey": 4,
+            "componentRefName": "seniorManagement",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Power of Attorney Holder",
+            "sortKey": 5,
+            "componentRefName": "powerAttorney",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Co Applicant",
+            "sortKey": 6,
+            "componentRefName": "coApplicant",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Sister Company",
+            "sortKey": 7,
+            "componentRefName": "sisterCompany",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Joint Applicant/ Guarantor",
+            "sortKey": 8,
+            "componentRefName": "jointApplicant",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Review",
+            "sortKey": 9,
+            "componentRefName": "reviewConnectedParties",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 1
+      },
+      {
+        "titleName": "Key contact Person",
+        "childNodes": [
+          {
+            "displayName": "Personal Information",
+            "sortKey": 0,
+            "componentRefName": "personalInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Contact & Address Details",
+            "sortKey": 1,
+            "componentRefName": "customAddressInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Identity Details",
+            "sortKey": 2,
+            "componentRefName": "identityDetailInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Reference Details",
+            "sortKey": 3,
+            "componentRefName": "referenceDetailInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Review",
+            "sortKey": 4,
+            "componentRefName": "reviewKeyContactPerson",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 2
+      },
+      {
+        "titleName": "Tax Classification",
+        "childNodes": [
+          {
+            "displayName": "Preliminary Tax Assessment Questions",
+            "sortKey": 0,
+            "componentRefName": "preliminaryTaxInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "US Tax",
+            "sortKey": 1,
+            "componentRefName": "usTaxInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "FATCA",
+            "sortKey": 2,
+            "componentRefName": "FATCAInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "CRS",
+            "sortKey": 3,
+            "componentRefName": "CRSInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Additional FATCA",
+            "sortKey": 4,
+            "componentRefName": "AdditionalFatcaInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Review(Tax Classification)",
+            "sortKey": 5,
+            "componentRefName": "reviewTaxClassification",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 3
+      },
+      {
+        "titleName": "Business Account",
+        "childNodes": [
+          {
+            "displayName": "Customer Information",
+            "sortKey": 0,
+            "componentRefName": "customInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Contact & Address Information",
+            "sortKey": 1,
+            "componentRefName": "customAddressInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Identity Information",
+            "sortKey": 2,
+            "componentRefName": "identityInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Review",
+            "sortKey": 3,
+            "componentRefName": "reviewAboutCompany",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 4
+      },
+      {
+        "titleName": "Documents",
+        "childNodes": [
+          {
+            "displayName": "Customer Information",
+            "sortKey": 0,
+            "componentRefName": "customInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Contact & Address Information",
+            "sortKey": 1,
+            "componentRefName": "customAddressInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Identity Information",
+            "sortKey": 2,
+            "componentRefName": "identityInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Review",
+            "sortKey": 3,
+            "componentRefName": "reviewAboutCompany",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 5
+      },
+      {
+        "titleName": "Submit",
+        "childNodes": [
+          {
+            "displayName": "Submit",
+            "sortKey": 0,
+            "componentRefName": "customInfo",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 6
+        }
+    ]
+  }

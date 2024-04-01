@@ -1,0 +1,95 @@
+.SideMenu .container {
+  width: fit-content;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  width: 25rem;
+}
+
+.SideMenu_Btn{
+  width: calc(100% - 40px);
+}
+
+.SideMenu_subMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.SideMenu ul {
+  list-style: none;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Graphik';;
+}
+
+.SideMenu ul li {
+  padding-bottom: 20px;
+  position:relative
+}
+
+.SideMenuList span {
+  font-size: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(214, 214, 214);
+  padding: 0px 5px;
+  margin-right: 20px;
+  background: rgba(0, 98, 255, 1) 100%;
+}
+
+.SideMenuListnotSelect span {
+  font-size: 10px;
+  border-radius: 50%;
+  border: 1px solid rgb(214, 214, 214);
+  padding: 0px 5px;
+  margin-right: 20px;
+  background: rgba(255,255,255, 1) 100%;
+}
+.SideMenu ul li span:before{
+  content:'';
+  position:absolute;
+  border:1px solid rgb(214, 214, 214) ;
+  bottom:0;
+  top: 20px;
+  z-index:0;
+  height:100%
+}
+
+.SideMenu ul li:last-child span:before{
+ content:none;
+}
+.SideMenu ul li:last-child{
+  padding-bottom:0
+}
+
+.SideMenu_Label {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SideMenu_menuSelect {
+  color: rgba(0, 98, 255, 1);
+  text-align: start;
+  padding: 3px 0;
+  font-size: 13px;
+}
+
+.SideMenu_default {
+  color: black;
+  font-size: 13px;
+  padding: 3px 0;
+  text-align: start;
+}
+
+.SubMenu_Title {
+  padding: 0.2rem 2.2rem;
+}
+
+.SubMenu_Title_forbidden {
+  padding: 0.2rem 2.2rem;
+  cursor: not-allowed;
+}

@@ -1,0 +1,28 @@
+{
+    "parentNode": [
+      {
+        "titleName": "Eligibilty Check",
+        "childNodes": [
+          {
+            "displayName": "Applicant Detail",
+            "sortKey": 0,
+            "componentRefName": "customAddressInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Pre Screening",
+            "sortKey": 1,
+            "componentRefName": "identityInfo",
+            "additionalConfig": {}
+          },
+          {
+            "displayName": "Document Upload",
+            "sortKey": 2,
+            "componentRefName": "identityInfo",
+            "additionalConfig": {}
+          }
+        ],
+        "sortIdx": 0
+      }
+    ]
+  }

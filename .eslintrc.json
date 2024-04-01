@@ -1,0 +1,81 @@
+{
+  "root": true,
+  "extends": "next/core-web-vitals",
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./"]],
+        "extensions": [".tsx", "ts", ".js", ".jsx"]
+      }
+    },
+    "react": {
+      "version": "detect"
+    }
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["airbnb",
+      "airbnb/hooks",
+      "airbnb-typescript",
+      "plugin:@next/next/recommended"],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "plugins": ["@typescript-eslint", "formatjs"],
+      "rules": {
+        "react/destructuring-assignment": "off",
+        "react/jsx-uses-react": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-no-useless-fragment": [
+          "error",
+          {
+            "allowExpressions": true
+          }
+        ],
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": [
+              "**/*.spec.{js,jsx,ts,tsx}",
+              "**/*.stories.{js,jsx,ts,tsx}",
+              "**.config.js",
+              "types/**",
+              "helpers/**.{js,ts,jsx,tsx}",
+              "**/mocks.ts"
+            ]
+          }
+        ],
+        "import/no-unresolved": [
+          2,
+          {
+            "ignore": ["\\.(png|jpg|svg)\\?(include)$"]
+          }
+        ],
+        "react/require-default-props": [
+          2,
+          {
+            "ignoreFunctionalComponents": true
+          }
+        ],
+        "formatjs/no-offset": "error",
+        "formatjs/enforce-plural-rules": [
+          2,
+          {
+            "one": true,
+            "other": true,
+            "zero": false
+          }
+        ],
+        "formatjs/no-multiple-whitespaces": "error",
+        "formatjs/no-multiple-plurals": "error",
+        "formatjs/enforce-placeholders": "error",
+        "formatjs/no-id": "error"
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+.container {
+  flex: 1;
+  margin-left: 2rem;
+  padding-top: 3rem;
+  margin-top: 2rem;
+}
+.login_fabImage {
+  height: 62px !important;
+  width: 78px !important;
+}
+.login_logo_text {
+  font-weight: 600;
+  font-size: 28px;
+  font-family: 'Graphik';
+  color: #fff;
+  margin-left: 6rem;
+  margin-top: -3rem;
+}
+.login_div_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -1.5rem;
+}
+.login_first_card_div {
+  width: 29.5rem;
+}
+.login_card_one {
+  display: flex;
+  margin-top: 5rem;
+  flex: 1;
+  background-color: #f2f3f5;
+  border: 2px;
+  position: relative;
+  opacity: 1;
+  height: 86.8%;
+}
+.login_card_inside_div {
+  padding: 1.5rem;
+  margin-right: 4rem;
+  padding-right: 0rem;
+}
+.login_h1_div {
+  margin-left: 1.5rem;
+}
+.login_h1 {
+  /* font-family: "Graphik";
+  font-size: 1.8rem;
+  font-weight: 600; */
+  font-family: 'Graphik';
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c2e2f;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  margin-top: 1rem;
+}
+.login_phone_image {
+  width: 125%;
+  margin-right: 15rem;
+  margin-left: -2rem;
+  margin-top: 1.8rem;
+}
+.login_barcode_text_div {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.3rem;
+}
+.login_barcode_image {
+  width: 60%;
+}
+.login_below_text_div {
+  padding-left: 2rem;
+}
+.login_below_h1_text {
+  font-family: 'Graphik';
+  font-size: 14px;
+  color: #2c2e2f;
+}
+.login_below_two_images {
+  padding: 1rem;
+  margin-left: -1rem;
+  display: flex;
+  flex-direction: row;
+}
+.login_inner_image_div_container {
+  margin-right: 0.5rem;
+  margin-top: 0rem;
+}
+.login_space_div {
+  width: 2rem;
+}
+.login_second_card_div {
+  width: 29.5rem;
+}
+.login_card_two {
+  width: 29.5rem;
+  display: flex;
+  background-color: #ffffff;
+  margin-top: 5rem;
+  flex: 1;
+  border: 2px;
+  height: 80%;
+  position: relative;
+  opacity: 1;
+}
+.login_form_div {
+  padding: 1.5rem;
+  margin-right: 4rem;
+  padding-right: 0rem;
+}
+.login_card_two_inside_div {
+  margin-left: 1.5rem;
+}
+.login_h1_div_card_two {
+  font-family: 'Graphik';
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c2e2f;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  margin-top: 1rem;
+}
+.login_p_tag {
+  font-size: 14px;
+  margin-top: 0.9rem;
+}
+.login_input_main_div {
+  padding-top: 1.7rem;
+}
+.login_textlink {
+  display: flex;
+  justify-content: right;
+  padding-top: 1.7rem;
+  padding-bottom: 1rem;
+}
+.login_button_div {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.7rem;
+  padding-bottom: 0.9rem;
+}
+.login_or_text {
+  text-align: center;
+}
+.login_Uae_button {
+  padding-top: 1rem;
+}
+.login_below_text_card_two_div {
+  text-align: center;
+  margin-top: 2.21rem;
+  height: 7rem;
+  margin-bottom: -1.5rem;
+  margin-left: -1.5rem;
+  margin-right: -4rem;
+  border-top: 1rem;
+  border-top-color: black;
+  background-color: rgb(237 239 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 10px 10px;
+}
+.login_below_p_tag {
+  margin-top: 1rem;
+}
+.login_below_textlink {
+  font-family: 'GraphikMedium';
+}
+.login_below_card_text_div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rem;
+  margin-bottom: -4rem;
+}
+.login_below_card_h1_text {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: -13rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+}

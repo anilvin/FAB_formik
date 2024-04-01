@@ -1,0 +1,28 @@
+.container {
+    flex: 1;
+    padding-top: 1rem;
+  }
+  .login_h1 {
+    /* font-family: "Graphik";
+    font-size: 1.8rem;
+    font-weight: 600; */
+    font-family: 'Graphik';
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c2e2f;
+    letter-spacing: -0.2px;
+    line-height: 32px;
+  }
+  .login_below_h1_text {
+    font-family: 'Graphik';
+    font-size: 18px;
+    color: #2c2e2f;
+    padding-top: 1rem;
+    padding-right: 19rem;
+  }
+  .login_textlink {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+  }

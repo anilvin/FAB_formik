@@ -1,0 +1,17 @@
+.mainContainer {
+width: 50vw;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,1fr);
+  row-gap: 1rem;
+  column-gap: 1.5rem;
+}
+
+.gridContainerFullWidth{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1.5rem;
+  column-gap: 2rem;
+}

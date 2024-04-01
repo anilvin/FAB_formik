@@ -1,0 +1,111 @@
+.RegContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 3rem;
+  }
+  
+  /* .Reglogo {
+    flex: 2;
+  }
+  .regCard {
+    flex: 5;
+    margin-bottom: 6rem;
+  } */
+  
+  /* .logobottomtext {
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Graphik';
+    color: #fff;
+    margin-top: 1.5rem;
+  } */
+  .FabHeading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Graphik';
+    color: #3b3c3e;
+    padding-left: 21px;
+    padding-bottom: 0.5rem;
+    padding-top: 1.2rem;
+  }
+  
+  .subHead{
+    margin-left: 1rem;
+    padding: 10px 5px;
+  }
+  .formLine {
+    display: flex;
+  }
+  
+  .firstInput {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    padding-left: 20px;
+  }
+  
+  .secondInput {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    padding-right: 54px;
+  }
+  
+  .formLastLine {
+    display: flex;
+    margin-top: 2.25rem;
+  }
+  
+  .text12pxLink {
+    color: rgba(0, 98, 255, 1);
+    font-family: 'Graphik';
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .text12px {
+    display: flex;
+    padding-left: 34px;
+    color: rgba(76, 78, 84, 1);
+    font-family: 'Graphik';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+  }
+  
+  .text12pxB {
+    padding-left: 34px;
+    color: rgba(76, 78, 84, 1);
+    font-family: 'Graphik';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  
+  .btnContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: row;
+    padding-right: 54px;
+    margin-left: 12rem;
+  }
+  
+  .checkborContainer {
+    font-family: 'Graphik';
+    height: 48px;
+    border: 1px solid rgba(214, 214, 214, 0.75);
+    padding-left: 1rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }

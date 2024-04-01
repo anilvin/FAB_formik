@@ -1,0 +1,20 @@
+.question_logo{
+    border-radius:50% ;
+    border: 1px solid #FFFFFF;
+    width: 25px;
+    height: 25px;
+    display: grid;
+    justify-content: center;
+    margin-top: 0.1rem;
+    color: #FFFFFF;
+}
+.FAQs{
+color: #FFFFFF;
+display: flex;
+margin-top: 0.3rem;
+font-size: small;
+}
+.nav_right>li{
+    padding: 10px 30px;
+}
+

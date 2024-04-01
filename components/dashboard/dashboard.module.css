@@ -1,0 +1,14 @@
+.container {
+  flex: 1;
+  margin-left: 3rem;
+  padding-top: 3rem;
+  margin-top: 2rem;
+}
+.dashboard_logo_text {
+  font-weight: 600;
+  font-size: 28px;
+  font-family: 'Graphik';
+  color: #fff;
+  margin-left: 6rem;
+  margin-top: -3rem;
+}

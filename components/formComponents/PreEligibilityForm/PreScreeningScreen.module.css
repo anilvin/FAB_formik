@@ -1,0 +1,13 @@
+.mainContainer{
+  padding: 5px 30px 100px 100px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+  row-gap: 1.2rem;
+
+    column-gap: 3rem;
+    
+  margin-left: -3rem;
+}

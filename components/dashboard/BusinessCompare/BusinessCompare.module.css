@@ -1,0 +1,66 @@
+.compareBox {
+  box-sizing: border-box;
+  padding: 2rem 0;
+}
+.compareBox table {
+  overflow: hidden;
+}
+.compareBox td,
+.compareBox th {
+  padding: 10px;
+  position: relative;
+}
+
+.compareBox th {
+  border-right: 10px solid white;
+
+}
+.compareBox td {
+  background-color: #f5f9ff;
+  border-right: 50px solid white;
+}
+.compareBox th {
+  background-color: #fff;
+}
+
+/* 
+  .compareBox td:hover::after,
+.compareBox thead th:not(:empty):hover::after,
+.compareBox td:focus::after,
+.compareBox thead th:not(:empty):focus::after { 
+  content: '';  
+  height: 10000px;
+  left: 0;
+  position: absolute;  
+  top: -5000px;
+  width: 100%;
+  z-index: 0;
+}
+
+.compareBox td:hover::after,
+.compareBox th:hover::after {
+  border: 1px solid #f21;
+} */
+
+.compareBox .pointer {
+      padding: 20px 25px;
+}
+
+.compareBox .heading{display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.compareBox .pointer::before {
+  content: '';
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: var(--chakra-colors-secondary-100);
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0.7rem;
+  border-radius: 100%;
+}
